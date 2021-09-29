@@ -1,0 +1,156 @@
+.panel-default{border-color: transparent}
+.panel-title{text-decoration:none !important;color: #fff;}
+.panel-title:hover{color: #fff;}
+.panel-title:focus{color: #020}
+.text-danger{color: #d90736;}
+.media-body{vertical-align: middle}
+textarea{max-width: 100%;min-width: 100%;max-height: 100px;min-height: 50px;}
+p{margin-top: 5px;}
+.media-object {width: 70px;}
+.panel-default>.panel-heading{
+	background-color: #d90736;
+	border-color: #d90736;
+	margin-bottom: 5px;
+}
+.panel-default>.panel-heading:focus{
+	background-color: #b6b1b2;
+	border-color: #92898b;
+}
+.btn-sand
+{
+	color: #fff;
+    background-color: #d90736;
+    border-color:#d90736;
+	width: 100%;
+}
+.btn-sand:hover{
+	background-color: #c7415f;
+	color: #fff;
+}
+.btn-warning:active{
+	color: #fff;
+}
+.thumbnail {
+    text-transform: uppercase;
+    text-align-last: center;
+}
+.thumbnail img {width: 97px}
+.msg{
+	position: fixed;
+    z-index: 99999;
+    float: right;
+    right: 20px;
+    top: 10px;
+    width: 300px;
+}
+#submit{margin-bottom: 30px;}
+/* code */
+.nopad {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+/*image gallery*/
+.image-checkbox {
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 4px solid transparent;
+	margin-bottom: 0;
+	outline: 0;
+}
+.image-checkbox input[type="checkbox"] {
+	display: none;
+}
+
+.image-checkbox-checked {
+	border-color: #4783B0;
+}
+.image-checkbox .fa {
+  position: absolute;
+  color: #4A79A3;
+  background-color: #fff;
+  padding: 10px;
+  top: 0;
+  right: 0;
+}
+.image-checkbox-checked .fa {
+  display: block !important;
+}
+
+.image-radio input[type="radio"] {
+	display: none;
+}
+
+.image-radio-checked {
+	border-color: #4783B0;
+}
+.image-radio .fa {
+  position: absolute;
+  color: #4A79A3;
+  background-color: #fff;
+  padding: 10px;
+  top: 0;
+  right: 0;
+}
+.image-radio-checked .fa {
+  display: block !important;
+}
+/* style picter */
+/* line 6, source/sass/image-picker.scss */
+ul.thumbnails.image_picker_selector {
+	overflow: auto;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px; }
+/* line 15, source/sass/image-picker.scss */
+ul.thumbnails.image_picker_selector ul {
+	overflow: auto;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px; }
+/* line 25, source/sass/image-picker.scss */
+ul.thumbnails.image_picker_selector li.group_title {
+	float: none; }
+/* line 30, source/sass/image-picker.scss */
+ul.thumbnails.image_picker_selector li {
+	margin: 5px 10px 0px 0px;
+	float: left; 
+}
+.select-coin ~ ul.thumbnails.image_picker_selector li {
+	float: none; 
+}
+	/* line 35, source/sass/image-picker.scss */
+	ul.thumbnails.image_picker_selector li .thumbnail {
+	padding: 6px;
+	border: 1px solid #DDD;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none
+}
+	/* line 42, source/sass/image-picker.scss */
+ul.thumbnails.image_picker_selector li .thumbnail img {
+	-webkit-user-drag: none;
+	-webkit-text-stroke-width: thin;
+}
+/* line 48, source/sass/image-picker.scss */
+ul.thumbnails.image_picker_selector li .thumbnail.selected {
+	background: #d90736;
+	color: #fff;
+}
+.select-texture ~ ul.thumbnails li .thumbnail img{width: 450px;}
+.liste-tissus ~ ul.thumbnails li .thumbnail img{width: 120px;}
+
+@media(min-width:360px) and (max-width:640px){
+	.select-table ~ ul.image_picker_selector li {
+		margin: 5px 0px 0px 0px;
+		float: none; 
+	}
+	.liste-tissus ~ ul.thumbnails li .thumbnail img{
+		height: 80px;
+	}
+}
